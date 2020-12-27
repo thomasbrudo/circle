@@ -1,0 +1,19 @@
+
+<div>
+    <div class="wrapper" *ngIf="circleVisible">
+        <button class="b" (click) = 'getNewColorRGB(circles[0])' [ngStyle]="{'background-color':circles[0].colors_string}">{{circles[0].colors_string}}</button>
+        <button class="b" (click) = 'getNewColorRGB(circles[1])' [ngStyle]="{'background-color':circles[1].colors_string}">{{circles[1].colors_string}}</button>
+    </div>
+
+    <div class="buttoncss" *ngIf="circleVisible">
+        <button (click) = 'showSquare()'>Mix Colors</button>    
+    </div>
+
+    <div class="wrapper" *ngIf="!circleVisible">
+       <button class="c" (click) = 'mixColors(circles[2])' [ngStyle]="{'background-color':circles[2].colors_string}">{{circles[2].colors_string}}</button>
+    </div>   
+
+    <div class="buttoncss2" *ngIf="!circleVisible">
+       <button (click) = 'showCircles()'>Select Other Colors</button>
+    </div>
+</div>

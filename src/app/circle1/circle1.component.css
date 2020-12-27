@@ -1,0 +1,72 @@
+
+@font-face {
+  font-family: "Burswood";
+  src: local("Burswood"), url(./fonts/Burswood.ttf) format("truetype");
+}
+
+.wrapper {
+  width: 80vw;
+  display:flex;
+  justify-content: space-around;
+}
+
+.buttoncss {
+  display:flex;
+  justify-content: space-around;
+}
+
+.buttoncss2 {
+  display:flex;
+  justify-content: space-around;
+}
+
+.buttoncss button {
+  margin-top: 5vw;
+  height: 7vw;
+  width: 22vw;
+  font-family: inherit;
+  border-radius: 2.5%;
+  border-width: 1vw;
+  font-size: 4vw;
+  color: azure;
+  background-color: black;
+  outline:none;
+}
+
+.buttoncss2 button {
+  margin-top: 5vw;
+  height: 7vw;
+  width: 32.5vw;
+  font-family: inherit;
+  border-radius: 2.5%;
+  border-width: 1vw;
+  font-size: 4vw;
+  color: azure;
+  background-color: black;
+  outline:none;
+}
+
+.b {
+  height: 30vw;
+  width: 30vw;
+  background-color: orange;
+  border-radius: 50%;
+  border-width: 1vw;
+  font-family: "Burswood";
+  font-size: 5vw;
+  outline:none;
+}
+
+.c {
+  height: 30vw;
+  width: 30vw;
+  background-color: orange;
+  border-radius: 10%;
+  border-width: 1vw;
+  font-family: "Burswood";
+  font-size: 5vw;
+  outline:none;
+}
+
+
+
